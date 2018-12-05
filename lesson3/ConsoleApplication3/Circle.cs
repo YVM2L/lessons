@@ -8,6 +8,16 @@ namespace ConsoleApplication3
 {
     class Circle: Figure
     {
-
+        public Circle (int y, int z)
+        {
+            this.y = y;
+            this.z = z
+        }
+        
+        public double c.Square()
+        {
+            double c = y*z;
+            return c;
+        }
     }
 }

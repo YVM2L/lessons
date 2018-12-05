@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication3
 {
-    class Triangle: Figure
+    class Triangle
     {
-        public Triangle (int x);
+        public double i;
+        public double b;
+        public double Square()
         {
-            this.x = x;
-        }
-        public int t. Square ()
-        {   
-            int t = 1 / 2 * Math.Pow(x,2);
-            return t;
+            double s = 0.5 * i * b;
+            return s;
         }
     }
 }

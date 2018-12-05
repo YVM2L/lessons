@@ -16,7 +16,7 @@ namespace ConsoleApplication3
         
         public double c.Square()
         {
-            double c = y*z;
+            double c = y * Math.Pow(z,2);
             return c;
         }
     }

@@ -32,8 +32,14 @@ namespace ConsoleApplication3
             
             Console.WriteLine(p11.distanceTo(p22));*/
 
-            Circle c = new Circle();
+            Circle c1 = new Circle(3.14);
+            Circle c2 = new Circle(4);
             Console.WriteLine(c.Square());
+            Square s1 = new Square(2);
+            Console.WriteLine(s.Square());
+            Triangle t1 = new Triangle(2);
+            Console.WriteLine(t.Square());
+            
 
 
             Console.ReadKey();

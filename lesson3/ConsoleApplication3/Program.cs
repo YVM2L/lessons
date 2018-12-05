@@ -22,7 +22,7 @@ namespace ConsoleApplication3
             Console.WriteLine(d1.name);
             Console.WriteLine(d1.age);
             Console.WriteLine(Dog.sound);
-            Test();*/
+            Test();
 
             Point p1 = new Point(0, 2);
             Point p2 = new Point(3, 3);
@@ -30,7 +30,7 @@ namespace ConsoleApplication3
             Point3d p11 = new Point3d(0, 2, 2);
             Point3d p22 = new Point3d(3, 3, 3);
             
-            Console.WriteLine(p11.distanceTo(p22));
+            Console.WriteLine(p11.distanceTo(p22));*/
 
             Circle c = new Circle();
             Console.WriteLine(c.Square());

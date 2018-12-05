@@ -11,7 +11,7 @@ namespace ConsoleApplication3
         public Circle (int y, int z)
         {
             this.y = y;
-            this.z = z
+            this.z = z;
         }
         
         public double c.Square()

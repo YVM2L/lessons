@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication3
 {
-    class Square
+    class Square: Figure
     {
+        public Square (int x)
+        {
+            this.x = x;
+        }
+          
+        public int s.Square()
+        {
+            int s = Math.Pow(x,2);
+            return s;
+        }
     }
 }

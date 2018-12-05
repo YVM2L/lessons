@@ -10,7 +10,7 @@ namespace ConsoleApplication3
     {
         public double Square()
         {
-            return -1;
+            return -s;
         }
     }
 }
